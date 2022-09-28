@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-base_URL = "https://1337x.to"
+base_URL = ""
 
 def get_magnet_link(search_string):
   URL = base_URL + "/search/"+"+".join(search_string.split())+"/1/"
