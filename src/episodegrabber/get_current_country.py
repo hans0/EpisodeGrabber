@@ -17,4 +17,4 @@ def get_country(ip):
   data = response.json()
   return data['country']
 
-print(get_country(get_ip()))
+#print(get_country(get_ip()))
